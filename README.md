@@ -34,8 +34,8 @@ Exemple de contenu du fichier : 'switches_list' : (il s'agit des adresses IP des
 
 192.168.122.63
 
-Le script demandera que vous renseigniez le nom (description) de vos vlans.
-Il s'agit de renseigner ces éléments en cohérence avec vos desoins.
+Renseignez également le nom (description) de vos vlans.
+Il s'agit de renseigner ces éléments en cohérence avec votre organisation.
 
 ## Quelques exemples:
 

@@ -45,7 +45,7 @@ Réalisations de l'exécution des commandes du script :
 
 Activités sur le switch:
 
-![5](https://user-images.githubusercontent.com/46109209/119552283-0c093a80-bd8a-11eb-8395-dc9463e83520.png)
+![5](https://user-images.githubusercontent.com/46109209/119579251-88f9db80-bdad-11eb-9c11-f936e79e220c.png)
 
 Vérification de creation des vlans:
 

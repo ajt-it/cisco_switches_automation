@@ -29,7 +29,9 @@ vlans_trunk_interfaces
 Exemple de contenu du fichier : 'switches_list' : (il s'agit des adresses IP des équipements à configurer)
 
 192.168.122.61
+
 192.168.122.62
+
 192.168.122.63
 
 Le script demandera que vous renseigniez le nom (description) de vos vlans.

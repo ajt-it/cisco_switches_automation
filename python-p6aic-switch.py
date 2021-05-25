@@ -40,7 +40,7 @@ for fline in f:
 		ID = dline
 		tn.write("vlan " + str(ID) + "\n")
 		while True:
-			description = raw_input("Write down the name for VLAN %s" % ID)
+			description = raw_input("Write down the name of VLAN %s" % ID)
 ## USER CANNOT LEFT BLANK THE VLAN DESCRIPTION			
 			if not description:
 				print "########################## Do not left blank! Give a description!"

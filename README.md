@@ -1,7 +1,7 @@
 # cisco_switches_automation
 Ce script sert assister l'administrateur réseau dans l'automatisation de certaines tâches répétitives de configuration des switchs Cisco.
 
-Représentation ifrastructure :
+Représentation de l'infrastructure :
 
 ![vb](https://user-images.githubusercontent.com/46109209/119550405-ea0eb880-bd87-11eb-9734-9a9c8991fcd5.png)
 

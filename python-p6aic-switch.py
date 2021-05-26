@@ -78,7 +78,7 @@ for fline in f:
 		tn.write("no shut\n")
 		tn.write("exit\n")
 #
-##  SETTING UP TRUNK INTERFACES ON THE SWITCH.
+#### SETTING UP TRUNK INTERFACES ON THE SWITCH.
 ####
 #### FIRST WE CONFIGURE INTERFACES
 	x = open('vlans_trunk_interfaces')
@@ -106,4 +106,4 @@ for fline in f:
 
 	print tn.read_all()
 
-print "################################## END OF SCRIPT ####################################"
+print "###################################### END OF SCRIPT ###########################################"

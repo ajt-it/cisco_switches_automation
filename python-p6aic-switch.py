@@ -5,14 +5,25 @@
 
 import getpass
 import sys
-print sys.getdefaultencoding()
+print " "
+print "Default encoding : " + sys.getdefaultencoding()
+print " "
 import telnetlib
+import os
 
 user = raw_input("Enter your telnet username: ")
+print " "
 password = getpass.getpass()
+print " "
+
+######### PRINT FILES LOCATION
+cwd = os.getcwd()
+print("This script and all input files are located in : ") + cwd
+print " "
+
 
 ## DEPEND THE IP ADDRESS DECLARED IN THE FILE - THE LOOP
-## ... WILL CONNECT TO EACH MATERIALS.
+## ...................... WILL CONNECT TO EACH MATERIALS.
 
 f = open('switches_list')
 
@@ -40,10 +51,10 @@ for fline in f:
 		ID = dline
 		tn.write("vlan " + str(ID) + "\n")
 		while True:
-			description = raw_input("Write down the name of VLAN %s" % ID)
+			description = raw_input("Write down the name for VLAN %s" % ID)
 ## USER CANNOT LEFT BLANK THE VLAN DESCRIPTION			
 			if not description:
-				print "########################## Do not left blank! Give a description!"
+				print "########################## Sorry, you can not leave blank! Please give a description!"
 				print " "
 				continue
 			else:
@@ -56,17 +67,18 @@ for fline in f:
 #
 ## ... HERE, WE SET EACH VLANS INTERFACES.
 ## ... INTERFACES WILL BE DECLARED IN "vlans_interfaces"
+
 	n = open('vlans_interfaces')
 
 	print " "
-	print "SET THE NUMBER OF EACH VLAN THE INTERFACE ACCESS PORT SHOULD BE CONFIGURE : "
+	print "MENTION THE 'ID NUMBER' OF EACH VLAN CORRESPONDING TO THE INTERFACE ON WHICH THE ACCESS PORT SHOULD BE CONFIGURES"
 	print " "
 
 	for nline in n:
 		INT = nline
 		tn.write("int gig " + str(INT) + "\n")
 		tn.write("switchport mode access\n")
-                while True:
+        while True:
 			ACCESS = raw_input("Set access vlan number : ")
 			if not ACCESS.isdigit():
 				print "You must enter a number. Refer to file : vlans_number"
@@ -77,6 +89,7 @@ for fline in f:
 		tn.write("switchport access vlan " + str(ACCESS) + "\n")
 		tn.write("no shut\n")
 		tn.write("exit\n")
+#
 #
 #### SETTING UP TRUNK INTERFACES ON THE SWITCH.
 ####
@@ -106,4 +119,5 @@ for fline in f:
 
 	print tn.read_all()
 
-print "###################################### END OF SCRIPT ###########################################"
+print "################################## END OF SCRIPT ####################################"
+print " "

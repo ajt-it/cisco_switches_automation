@@ -21,6 +21,30 @@ cwd = os.getcwd()
 print("This script and all input files are located in : ") + cwd
 print " "
 
+def banner():
+        cisco_switches_automation = """\033[92m
+
+  ____ ___ ____   ____ ___     ______        _____ _____ ____ _   _ _____ ____  
+ / ___|_ _/ ___| / ___/ _ \   / ___\ \      / /_ _|_   _/ ___| | | | ____/ ___| 
+| |    | |\___ \| |  | | | |  \___ \\ \ /\ / / | |  | || |   | |_| |  _| \___ \ 
+| |___ | | ___) | |__| |_| |   ___) |\ V  V /  | |  | || |___|  _  | |___ ___) |
+ \____|___|____/ \____\___/   |____/  \_/\_/  |___| |_| \____|_| |_|_____|____/ 
+                                                                               
+    _   _   _ _____ ___  __  __    _  _____ ___ ___  _   _ 
+   / \ | | | |_   _/ _ \|  \/  |  / \|_   _|_ _/ _ \| \ | |
+  / _ \| | | | | || | | | |\/| | / _ \ | |  | | | | |  \| |
+ / ___ \ |_| | | || |_| | |  | |/ ___ \| |  | | |_| | |\  |
+/_/   \_\___/  |_| \___/|_|  |_/_/   \_\_| |___\___/|_| \_|
+                                                           
+
+
+\033[0m"""
+        return cisco_switches_automation
+
+
+print banner()
+print " "
+
 
 ## DEPEND THE IP ADDRESS DECLARED IN THE FILE - THE LOOP
 ## ...................... WILL CONNECT TO EACH MATERIALS.
@@ -52,7 +76,7 @@ for fline in f:
 		tn.write("vlan " + str(ID) + "\n")
 		while True:
 			description = raw_input("Write down the name for VLAN %s" % ID)
-## USER CANNOT LEFT BLANK THE VLAN DESCRIPTION			
+## THE VLAN DESCRIPTION IS NECESSARY !		
 			if not description:
 				print "########################## Sorry, you can not leave blank! Please give a description!"
 				print " "
@@ -119,5 +143,11 @@ for fline in f:
 
 	print tn.read_all()
 
-print "################################## END OF SCRIPT ####################################"
 print " "
+print "#####################################################################################"
+print "#										   #"
+print "#                                   END						   #"
+print "# 				      OF					   #"
+print "# 					SCRIPT					   #"
+print "#										   #"
+print "#####################################################################################"

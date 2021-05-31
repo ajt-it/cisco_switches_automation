@@ -109,7 +109,7 @@ for fline in f:
 				print " "
 				continue
         	else:
-            	break
+            		break
 		tn.write("switchport access vlan " + str(ACCESS) + "\n")
 		tn.write("no shut\n")
 		tn.write("exit\n")

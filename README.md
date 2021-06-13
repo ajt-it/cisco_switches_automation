@@ -1,9 +1,16 @@
+![Python 2.7](https://img.shields.io/badge/python-2.7%2B-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # cisco_switches_automation
 Ce script assiste l'administrateur réseau dans l'automatisation de certaines tâches répétitives de configuration des commutateurs (switchs) Cisco.
 
 Représentation de l'infrastructure :
 
 ![vb](https://user-images.githubusercontent.com/46109209/119550405-ea0eb880-bd87-11eb-9734-9a9c8991fcd5.png)
+
+
+## Compatibilité
+ - :white_check_mark:CISCO IOS vL2 15.2
 
 
 ## Pré-requis
@@ -51,5 +58,3 @@ Vérification de creation des vlans:
 
 ![7](https://user-images.githubusercontent.com/46109209/119553256-ff391680-bd8a-11eb-8536-954878c73eb3.png)
 
-## Licence
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

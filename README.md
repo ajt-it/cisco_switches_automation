@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # cisco_switches_automation
-Ce script assiste l'administrateur réseau dans l'automatisation de certaines tâches répétitives de configuration des commutateurs (switchs) Cisco.
+Ce script assiste l'administrateur réseau dans l'automatisation de la configuration des commutateurs (switchs) Cisco.
 
 Représentation de l'infrastructure :
 
@@ -27,9 +27,15 @@ Vous devez renseigner l'username dans la variable "Username" du fichier python-p
 
 Durant son exécution, le script fera appel au données des fichiers :
 
+dns_server
+domain_name
 switches_list
 vlans_allowed_trunk
+vlans_dhcp_excluded_addr
+vlans_dhcp_pool_network
 vlans_interfaces
+vlans_ip_addr
+vlans_name
 vlans_number
 vlans_trunk_interfaces
 
@@ -41,20 +47,39 @@ Exemple de contenu du fichier : 'switches_list' : (il s'agit des adresses IP des
 
 192.168.122.63
 
-Renseignez également le nom (description) de vos vlans.
-Il s'agit de renseigner ces éléments en cohérence avec votre organisation.
+Renseignez également les différents fichiers d'inputs en cohérence avec vos besoins et votre organisation.
 
 ## Quelques exemples:
 
 Réalisations de l'exécution des commandes du script :
+![1](https://user-images.githubusercontent.com/46109209/121824257-5ea78980-cc9a-11eb-9328-0e8ba02b506b.png)
 
-![2](https://user-images.githubusercontent.com/46109209/119551874-a157ff00-bd89-11eb-90da-7efa22b93975.png)
+![2](https://user-images.githubusercontent.com/46109209/121824258-60714d00-cc9a-11eb-9171-a8dfeee2f143.png)
+
+![3](https://user-images.githubusercontent.com/46109209/121824262-65ce9780-cc9a-11eb-9f7a-69bd6821c04c.png)
+
+![4](https://user-images.githubusercontent.com/46109209/121824264-69621e80-cc9a-11eb-8200-03c176a453a9.png)
+
+![5](https://user-images.githubusercontent.com/46109209/121824265-6c5d0f00-cc9a-11eb-931a-eced5a922a14.png)
+
+![6](https://user-images.githubusercontent.com/46109209/121824266-6f57ff80-cc9a-11eb-9017-893222389c5d.png)
+
+![7](https://user-images.githubusercontent.com/46109209/121824269-741cb380-cc9a-11eb-94b8-b8a8ea216874.png)
+
 
 Activités sur le switch:
 
-![5](https://user-images.githubusercontent.com/46109209/119579251-88f9db80-bdad-11eb-9c11-f936e79e220c.png)
+![a](https://user-images.githubusercontent.com/46109209/121824446-c90cf980-cc9b-11eb-8bfa-50b8ad4081cf.png)
 
-Vérification de creation des vlans:
+![b](https://user-images.githubusercontent.com/46109209/121824452-cf9b7100-cc9b-11eb-90d0-1fc2d397f42d.png)
 
-![7](https://user-images.githubusercontent.com/46109209/119553256-ff391680-bd8a-11eb-8536-954878c73eb3.png)
+![c](https://user-images.githubusercontent.com/46109209/121824456-d32ef800-cc9b-11eb-97af-05fbabbab5ef.png)
+
+![d](https://user-images.githubusercontent.com/46109209/121824459-d629e880-cc9b-11eb-919e-e9679b0b1af9.png)
+
+![e](https://user-images.githubusercontent.com/46109209/121824464-d9bd6f80-cc9b-11eb-8238-2be5fb0d64d9.png)
+
+![f](https://user-images.githubusercontent.com/46109209/121824467-dcb86000-cc9b-11eb-8900-ad153580656b.png)
+
+![g](https://user-images.githubusercontent.com/46109209/121824470-dfb35080-cc9b-11eb-847a-c171425353fa.png)
 

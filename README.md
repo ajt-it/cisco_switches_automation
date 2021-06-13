@@ -23,7 +23,7 @@ apt install python
 chmod +x./python-p6aic-switch_v5.py
 
 ## Configuration
-Vous devez renseigner l'username dans la variable "Username" du fichier python-p6aic-switch.py :
+Vous devez renseigner l'username dans la variable "Username" du fichier python-p6aic-switch_v5.py :
 
 Durant son exécution, le script fera appel au données des fichiers :
 

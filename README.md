@@ -22,6 +22,8 @@ apt install python
 
 chmod +x./python-p6aic-switch_v5.py
 
+Avec la commande suivante, lancez le script : " sudo ./python-p6aic-switch_v5.py "
+
 ## Configuration
 Vous devez renseigner l'username dans la variable "Username" du fichier python-p6aic-switch_v5.py :
 
@@ -52,6 +54,7 @@ Renseignez également les différents fichiers d'inputs en cohérence avec vos b
 ## Quelques exemples:
 
 Réalisations de l'exécution des commandes du script :
+
 ![1](https://user-images.githubusercontent.com/46109209/121824257-5ea78980-cc9a-11eb-9328-0e8ba02b506b.png)
 
 ![2](https://user-images.githubusercontent.com/46109209/121824258-60714d00-cc9a-11eb-9171-a8dfeee2f143.png)

@@ -20,7 +20,7 @@ Vous aurez besoin d'un accès Telnet sur les cibles, ainsi que d'un même "Usern
 
 apt install python
 
-Rendre le script exécutable avec la commande : " chmod +x./python-p6aic-switch_v5.py "
+Rendre le script exécutable avec la commande : " sudo chmod +x./python-p6aic-switch_v5.py "
 
 La commande suivante, lancez le script : " sudo ./python-p6aic-switch_v5.py "
 

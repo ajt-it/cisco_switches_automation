@@ -82,6 +82,8 @@ Activités sur le switch:
 
 ![e](https://user-images.githubusercontent.com/46109209/121824464-d9bd6f80-cc9b-11eb-8238-2be5fb0d64d9.png)
 
+Acquisition de l'adressage IP par DHCP des ordinateurs: 
+
 ![f](https://user-images.githubusercontent.com/46109209/121824467-dcb86000-cc9b-11eb-8900-ad153580656b.png)
 
 ![g](https://user-images.githubusercontent.com/46109209/121824470-dfb35080-cc9b-11eb-847a-c171425353fa.png)

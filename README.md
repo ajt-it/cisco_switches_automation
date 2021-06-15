@@ -30,15 +30,25 @@ Vous devez renseigner l'username dans la variable "Username" du fichier python-p
 Durant son exécution, le script fera appel au données des fichiers :
 
 dns_server
+
 domain_name
+
 switches_list
+
 vlans_allowed_trunk
+
 vlans_dhcp_excluded_addr
+
 vlans_dhcp_pool_network
+
 vlans_interfaces
+
 vlans_ip_addr
+
 vlans_name
+
 vlans_number
+
 vlans_trunk_interfaces
 
 Exemple de contenu du fichier : 'switches_list' : (il s'agit des adresses IP des équipements à configurer)

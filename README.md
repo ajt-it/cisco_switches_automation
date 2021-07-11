@@ -6,7 +6,7 @@ Ce script assiste l'administrateur réseau dans l'automatisation de la configura
 
 Représentation de l'infrastructure :
 
-![p6 aic](https://user-images.githubusercontent.com/46109209/121824670-6b79ac80-cc9d-11eb-8a6d-826758fb2fbf.png)
+![git](https://user-images.githubusercontent.com/46109209/125194871-b4903280-e242-11eb-8206-3d38e903a979.png)
 
 
 ## Compatibilité

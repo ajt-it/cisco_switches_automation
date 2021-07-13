@@ -6,7 +6,7 @@ Ce script assiste l'administrateur réseau dans l'automatisation de la configura
 
 Représentation de l'infrastructure :
 
-![git](https://user-images.githubusercontent.com/46109209/125194871-b4903280-e242-11eb-8206-3d38e903a979.png)
+![pic](https://user-images.githubusercontent.com/46109209/125461751-f5a5e13b-bf3e-49a5-b2db-119db7e614aa.png)
 
 
 ## Compatibilité
